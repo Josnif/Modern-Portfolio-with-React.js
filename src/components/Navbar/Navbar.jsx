@@ -4,7 +4,7 @@ import { HiMenuAlt4 , HiX } from  'react-icons/hi'
 import { motion } from 'framer-motion'
 
 import './Navbar.scss'
-import { images } from '../../constants'
+// import { images } from '../../constants'
 
 const menuItems = ['home', 'about', 'work', 'skills', 'contact'];
 
@@ -14,7 +14,8 @@ const Navbar = () => {
     return (
         <nav className='app__navbar'>
             <div className="app__navbar-logo">
-                <img src={images.logo} alt="logo" />
+                {/* <img src={images.logo} alt="logo" /> */}
+                <h1>Josnif</h1>
             </div>
             <ul className="app__navbar-links">
                 {menuItems.map((item) => (
