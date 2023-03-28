@@ -15,7 +15,7 @@ const Navbar = () => {
         <nav className='app__navbar'>
             <div className="app__navbar-logo">
                 {/* <img src={images.logo} alt="logo" /> */}
-                <h1>Josnif</h1>
+                <h1>Jotweb</h1>
             </div>
             <ul className="app__navbar-links">
                 {menuItems.map((item) => (
